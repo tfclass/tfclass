@@ -6,7 +6,6 @@ body{
     color: white;
     background: rgb(65,93,140);
     background: linear-gradient(180deg, rgba(65,93,140,1) 0%, rgba(112,122,139,1) 39%, rgba(65,93,140,1) 100%);
-    font-family: 'Raleway', sans-serif;
 }
 
 .porfile{
@@ -17,33 +16,39 @@ body{
 .logo{
     width: 100px;
     border-radius: 50%;
-    border: 1px solid white;
-    box-shadow: 0 0 15px rgb(255, 255, 255);
-    
+    border: 2px solid white;
 }
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    color: white; text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: bold;
+    color: white; 
+    font-weight: bolder;
     font-size: 30px;
     margin-top: 15px;
     margin-bottom: 10px;
 }
     
 h3{
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: white; text-shadow: black 0.1em 0.1em 0.2em;
-    font-weight: bold;
-    margin-top: 8px;
+    margin-top: 20px;
     margin-bottom: 30px;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 1000px;
 }
 
 .social{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    margin: 20px;
+    margin: 30px 0px 30px 0px;
 }
 
 .social img{
@@ -53,7 +58,7 @@ h3{
 
 .link-list{   
     list-style: none;
-    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
 }
 
 .link-list li{
@@ -66,15 +71,22 @@ h3{
     padding: 15px 20px;
     border-radius: 4px;
     text-decoration: none;
-    color: rgb(46, 63, 158);
+    color: rgb(61, 73, 141);
+    font-weight: 600;
 }
 
 .link-list li a span{
     color: black;
     display: block;
     margin-top: 10px;
+    font-weight: 500;
 }
 
+.video{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
 
 
@@ -89,5 +101,4 @@ footer{
     text-align: center;    
     margin-top: 30px;
     color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em;
 } 
