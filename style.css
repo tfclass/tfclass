@@ -42,19 +42,26 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-
-/*=========================================================================*/
+/*===================================================*/
 
 body{
     color: white;
     background-image: url("../img/B-02.jpg");
     background-repeat:round;
     font-family: 'Mulish', sans-serif;
+}
+
+.container{
+    margin: auto;
+    
+    justify-content: center;
+    max-width: 700px;
 }
 
 .porfile{
@@ -103,13 +110,21 @@ h3{
     border-radius: 50px;
     text-decoration: none;
     color: #304779;
-    text-shadow: rgb(0, 48, 87) 0px 0.5px 0px;
+    text-shadow: rgb(0, 95, 173) 0px 0.5px 0px;
     font-weight: bolder;
     font-size: 18px;
 }
 
+/*-- Destaque mouse -------------------------*/
+
+.link-list li a:hover{
+    background:  rgba(255, 1, 1, 0.603);
+    color: white;
+    text-shadow: rgb(0, 0, 0) 0px 0.5px 0px;    
+}
+/*-------------------------------------------*/
 .link-list li a span{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 48, 87);
     display: block;
     margin-top: 10px;
     color: #000;
