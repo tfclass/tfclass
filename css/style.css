@@ -1,11 +1,9 @@
-html, body{
-    height: 100%;
-}
 
 body{
     color: white;
-    background: rgb(65,93,140);
-    background: linear-gradient(180deg, rgba(65,93,140,1) 0%, rgba(112,122,139,1) 39%, rgba(65,93,140,1) 100%);
+    background-image: url("../img/B-02.jpg");
+    background-repeat:round;
+    font-family: 'Mulish', sans-serif;
 }
 
 .porfile{
@@ -16,79 +14,60 @@ body{
 .logo{
     width: 100px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: solid 1px #f6f6f6;
 }
 
 h1{
     font-family: 'Montserrat', sans-serif;
-    color: white; 
     font-weight: bolder;
     font-size: 30px;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-shadow: rgb(0, 48, 87) 0px 1px 0px;
 }
     
 h3{
-    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-bottom: 35px;
+    text-shadow: rgb(0, 48, 87) 0px 1px 0px;
 }
 
-p{
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    max-width: 1000px;
-}
-
-.social{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin: 30px 0px 30px 0px;
-}
-
-.social img{
-    width: 25px;
-    border-radius: 50%;
-}
+/*==== LISTA ===================*/
 
 .link-list{   
     list-style: none;
-    font-family: 'Raleway', sans-serif;
 }
 
 .link-list li{
-    margin: 10px 20px;
+    margin: 20px 20px;  
 }
 
 .link-list li a{
     display: block;
-    background: rgb(238, 238, 238);
-    padding: 15px 20px;
-    border-radius: 4px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.7) 5%, rgba(255,255,255,1) 100%);
+    padding: 15px  30px;
+    border-radius: 50px;
     text-decoration: none;
-    color: rgb(61, 73, 141);
-    font-weight: 600;
+    color: #304779;
+    text-shadow: rgb(0, 48, 87) 0px 0.5px 0px;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 .link-list li a span{
-    color: black;
+    color: rgb(255, 255, 255);
     display: block;
     margin-top: 10px;
-    font-weight: 500;
+    color: #000;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
-.video{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-
+/*=======================================================*/
 
 footer{
     bottom: 0;  
@@ -100,5 +79,5 @@ footer{
     font-family: 'Roboto', sans-serif;
     text-align: center;    
     margin-top: 30px;
-    color: white; 
+    color: white;
 } 
